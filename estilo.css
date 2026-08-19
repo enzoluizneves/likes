@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+main {
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.area-likes{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.like{
+    padding: 8px;
+    font-size: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    filter: graysacle(100%);
+    opacity: 0.4;
+    transition: 0.3s;
+}
